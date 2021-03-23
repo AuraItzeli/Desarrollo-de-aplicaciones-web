@@ -1,0 +1,94 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100%;
+    overflow: hidden;
+    background: url('img/books-business.jpg') no-repeat top;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Hagin';
+    src: url('fonts/HaginCapsMedium-Medium.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-normal';
+    src: url('fonts/Poppins-BoldItalic.ttf');
+}
+
+
+
+.container {
+    width: 45%;
+    height: 60%;
+    position: relative;
+    top: 7%;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.marca {
+    width: fit-content;
+    font-family: Hagin;
+    font-size: 2rem;
+    color: rgba(26, 24, 24, 0.795);
+    letter-spacing: 2px;
+}
+
+.titulo {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    font-family: Poppins;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    text-align: justify;
+    color: rgba(37, 36, 36, 0.678);
+}
+
+.aviso {
+    width: 90%;
+    margin-top: 10px;
+    font-family: Poppins-normal;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    letter-spacing: .2rem;
+    text-align: left;
+    color: rgb(70, 69, 69);
+}
+
+.cta {
+    position: absolute;
+    bottom: 20%;
+    right: 7%;
+}
+
+.cta a {
+    border: solid;
+    font-family: Poppins-normal;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: rgba(107, 107, 107, 0.6);
+    color: rgb(41, 35, 35);
+}
+
+.cta a:hover {
+    color: aliceblue;
+    background-color: rgba(7, 7, 7, 0.6);
+}

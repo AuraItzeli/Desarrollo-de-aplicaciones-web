@@ -1,0 +1,33 @@
+
+
+body{
+    background-color: whitesmoke;
+
+}
+header{
+    background-color:chocolate ;
+    height: 150px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    background-color: yellow;
+    width: 70%;
+    height: 200px;
+    margin-right: 10px;
+}
+aside{
+    background: yellow;
+    width: 29%;
+    height: 200px;
+    
+}
+footer{
+    margin-top: 10px;
+    background-color:chocolate;
+    height: 80px;
+}
